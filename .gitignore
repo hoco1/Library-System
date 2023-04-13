@@ -1,0 +1,29 @@
+# ignore bin and obj directories
+bin/
+obj/
+
+# ignore Visual Studio files
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# ignore NuGet packages
+packages/
+
+# ignore temporary and cache files
+*.log
+*.bak
+*.tmp
+*.cache
+
+# ignore compiled binary files and debugging information
+*.dll
+*.exe
+*.pdb
+
+# ignore user-specific project settings
+*.csproj.user
+
+# ignore .env files
+.env
